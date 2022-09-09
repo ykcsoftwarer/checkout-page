@@ -1,0 +1,24 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    gap: 5rem;
+    justify-content: center;
+    .mid-container {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      padding: 2rem;
+      .left-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 25vw;
+      }
+      .right-container {
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+      }
+    }
+  }
